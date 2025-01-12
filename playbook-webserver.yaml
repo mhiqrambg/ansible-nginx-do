@@ -1,0 +1,7 @@
+---
+# playbook webserver
+- name: Install and configuration nginx
+  hosts: landingpage
+  become: yes
+  roles:
+    - landingpage
